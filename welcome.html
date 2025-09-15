@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Result Page</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f2f4f5;
+      color: #333;
+    }
+
+    .card {
+      max-width: 700px;
+      margin: 40px auto;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      background: #fff;
+    }
+
+    
+    .card-header {
+      background-color: #387b8d;
+      padding: 16px;
+      text-align: center;
+      color: white;
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+
+    
+    .profile-img {
+      width: 100%;
+      object-fit: contain;
+      border-bottom: 4px solid white;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #dce4e6;
+    }
+
+    th {
+      text-align: left;
+      font-size: 12px;
+      text-transform: uppercase;
+      color: #666;
+      width: 40%;
+    }
+
+    td {
+      font-size: 15px;
+      color: #1a4d80;
+      font-weight: 500;
+    }
+
+    
+    .actions {
+      display: flex;
+      justify-content: center;
+      gap: 16px;
+      padding: 20px;
+      background: #f8f9fa;
+    }
+
+    .btn {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+      color: white;
+      text-decoration: none;
+    }
+
+    .btn-print {
+      background-color: #2f5e6b;
+    }
+
+    .btn-check {
+      background-color: #3fa35a;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    
+    .footer {
+      font-size: 12px;
+      color: #456;
+      text-align: center;
+      padding: 10px;
+      background: #f2f4f5;
+    }
+
+    
+    .status-row td {
+      text-align: center;
+      font-weight: bold;
+      color: teal;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="photo_2025-09-14_19-56-37.jpg" alt="Profile Image" class="profile-img">
+
+
+    
+    <div class="card-header" style="margin-top:20px;">
+      Subject Scores
+    </div>
+    <table>
+      <tr><th>Geography</th><td>65</td></tr>
+      <tr><th>History</th><td>77</td></tr>
+      <tr><th>Mathematics</th><td>58</td></tr>
+      <tr><th>Economics</th><td>67</td></tr>
+      <tr><th>SAT</th><td>51</td></tr>
+      <tr><th>English</th><td>71</td></tr>
+      <tr class="status-row"><td colspan="2">Passed ✅: 389</td></tr>
+    </table>
+    <div class="card-header">
+      ESSLCE Registration Information
+    </div>
+
+    
+    <table>
+      <tr><th>FULLNAME</th><td>ABDUL AHMED MUSTAFA</td></tr>
+      <tr><th>ADMISSION_NO</th><td>8024102</td></tr>
+      <tr><th>SEX</th><td>M</td></tr>
+      <tr><th>AGE</th><td>18</td></tr>
+      <tr><th>STREAM</th><td>Social Sc.</td></tr>
+      <tr><th>SCHOOL</th><td>MAGNET</td></tr>
+    </table>
+
+    
+
+    
+    <div class="actions">
+      <a href="index.html" class="btn btn-check">
+        ↩️ Check Again
+      </a>
+    </div>
+  </div>
+
+  <div class="footer">
+    © 2025 EAES ICT Team & HU ICT Team
+  </div>
+
+</body>
+</html>
